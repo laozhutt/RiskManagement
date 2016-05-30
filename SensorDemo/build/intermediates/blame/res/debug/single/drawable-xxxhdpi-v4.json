@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_info_black_24dp.png",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/drawable-xxxhdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_sync_black_24dp.png",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/drawable-xxxhdpi/ic_sync_black_24dp.png"
+    },
+    {
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_notifications_black_24dp.png",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/drawable-xxxhdpi/ic_notifications_black_24dp.png"
+    }
+]

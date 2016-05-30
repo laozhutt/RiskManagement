@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Processing"
+            android:fontFamily="cursive"
+            android:textSize="40dp"
+            android:id="@+id/state"
+            android:layout_marginTop="38dp"
+            android:focusableInTouchMode="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number:"
+            android:textSize="30dp"
+            android:id="@+id/numberLabel"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/state"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/number"
+            android:layout_alignTop="@+id/numberLabel"
+            android:layout_toRightOf="@+id/numberLabel"
+            android:layout_toEndOf="@+id/numberLabel" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/trainButton"
+            android:src="@drawable/training"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="40dp"
+            android:layout_below="@+id/numberLabel"
+            android:layout_alignLeft="@+id/numberLabel"
+            android:layout_alignStart="@+id/numberLabel"
+            android:onClick="onCollectButtonClick"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:id="@+id/progressBar"
+            android:progress="0"
+            android:indeterminate="false"
+            android:max="500"
+            android:layout_below="@+id/state"
+            android:layout_above="@+id/numberLabel" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/lockButton"
+            android:src="@drawable/lock"
+            android:onClick="onDetectButtonClick"
+            android:layout_alignTop="@+id/trainButton"
+            android:layout_toRightOf="@+id/trainButton"
+            android:layout_toEndOf="@+id/trainButton" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:onClick="startPasswordSetting"
+            android:id="@+id/imageView"
+            android:src="@drawable/setting_icon"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/lockButton"
+            android:layout_toEndOf="@+id/lockButton" />
+
+    </RelativeLayout>
+</LinearLayout>
