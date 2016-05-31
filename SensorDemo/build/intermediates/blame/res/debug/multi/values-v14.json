@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+=======
+        "outputFile": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/values-v14/values-v14.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
         "map": [
             {
                 "to": {
@@ -12,6 +16,7 @@
                     "endOffset": 201
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
@@ -39,6 +44,9 @@
                 },
                 "from": {
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values-v14\\styles.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values-v14/styles.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

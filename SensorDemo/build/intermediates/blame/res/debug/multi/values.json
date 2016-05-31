@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+=======
+        "outputFile": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/values/values.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
         "map": [
             {
                 "to": {
@@ -12,6 +16,7 @@
                     "endOffset": 211
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 26,
@@ -982,6 +987,9 @@
                 },
                 "from": {
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1002,7 +1010,11 @@
                     "endOffset": 352
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -1023,7 +1035,11 @@
                     "endOffset": 602
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -1044,7 +1060,11 @@
                     "endOffset": 821
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -1064,7 +1084,11 @@
                     "endOffset": 879
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\dimens.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/dimens.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1083,7 +1107,11 @@
                     "endOffset": 935
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\dimens.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/dimens.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1102,7 +1130,11 @@
                     "endOffset": 983
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1121,7 +1153,11 @@
                     "endOffset": 1048
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
@@ -1140,7 +1176,11 @@
                     "endOffset": 1103
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -1159,7 +1199,11 @@
                     "endOffset": 1163
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 74,
                         "startColumn": 4,
@@ -1178,7 +1222,11 @@
                     "endOffset": 1213
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
@@ -1197,7 +1245,11 @@
                     "endOffset": 1250
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1216,7 +1268,11 @@
                     "endOffset": 1303
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1235,7 +1291,11 @@
                     "endOffset": 1342
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1254,7 +1314,11 @@
                     "endOffset": 1426
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 84,
                         "startColumn": 4,
@@ -1273,7 +1337,11 @@
                     "endOffset": 1510
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 86,
                         "startColumn": 4,
@@ -1292,7 +1360,11 @@
                     "endOffset": 1594
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 85,
                         "startColumn": 4,
@@ -1311,7 +1383,11 @@
                     "endOffset": 1658
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 76,
                         "startColumn": 4,
@@ -1330,7 +1406,11 @@
                     "endOffset": 1724
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 83,
                         "startColumn": 4,
@@ -1349,7 +1429,11 @@
                     "endOffset": 1788
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 82,
                         "startColumn": 4,
@@ -1368,7 +1452,11 @@
                     "endOffset": 1853
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1388,7 +1476,11 @@
                     "endOffset": 2002
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1408,7 +1500,11 @@
                     "endOffset": 2068
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -1427,7 +1523,11 @@
                     "endOffset": 2124
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1446,7 +1546,11 @@
                     "endOffset": 2192
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -1465,7 +1569,11 @@
                     "endOffset": 2248
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
@@ -1484,7 +1592,11 @@
                     "endOffset": 2335
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1503,7 +1615,11 @@
                     "endOffset": 2400
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1522,7 +1638,11 @@
                     "endOffset": 2491
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -1541,7 +1661,11 @@
                     "endOffset": 2548
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -1560,7 +1684,11 @@
                     "endOffset": 2640
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1579,7 +1707,11 @@
                     "endOffset": 2709
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -1598,7 +1730,11 @@
                     "endOffset": 2790
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -1617,7 +1753,11 @@
                     "endOffset": 2845
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 69,
                         "startColumn": 4,
@@ -1636,7 +1776,11 @@
                     "endOffset": 2909
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
@@ -1655,7 +1799,11 @@
                     "endOffset": 2981
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 77,
                         "startColumn": 4,
@@ -1674,7 +1822,11 @@
                     "endOffset": 3051
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
@@ -1693,7 +1845,11 @@
                     "endOffset": 3098
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -1712,7 +1868,11 @@
                     "endOffset": 3155
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 88,
                         "startColumn": 4,
@@ -1731,7 +1891,11 @@
                     "endOffset": 3214
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
@@ -1750,7 +1914,11 @@
                     "endOffset": 3259
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
@@ -1769,7 +1937,11 @@
                     "endOffset": 3317
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
@@ -1788,7 +1960,11 @@
                     "endOffset": 3369
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
@@ -1807,7 +1983,11 @@
                     "endOffset": 3423
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
@@ -1826,7 +2006,11 @@
                     "endOffset": 3462
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1845,7 +2029,11 @@
                     "endOffset": 3500
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1864,7 +2052,11 @@
                     "endOffset": 3561
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1883,7 +2075,11 @@
                     "endOffset": 3600
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\strings.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/strings.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1903,7 +2099,11 @@
                     "endOffset": 3891
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\styles.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/styles.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1924,7 +2124,11 @@
                     "endOffset": 4106
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\values\\styles.xml",
+=======
+                    "file": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/values/styles.xml",
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,

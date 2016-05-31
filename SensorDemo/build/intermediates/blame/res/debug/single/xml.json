@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
         "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\xml\\pref_general.xml"
     },
@@ -30,5 +31,21 @@
     {
         "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
         "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\xml\\pref_general.xml"
+=======
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_data_sync.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_data_sync.xml"
+    },
+    {
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_general.xml"
+    },
+    {
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_notification.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_notification.xml"
+    },
+    {
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_headers.xml"
+>>>>>>> f914cb79246a4d704f2409780b39b5a3235bdc8b
     }
 ]
