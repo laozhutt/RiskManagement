@@ -1,5 +1,0 @@
-CHANGED,/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/sensordemo/DetectService$DetectBinder$override.class
-CHANGED,/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/sensordemo/DetectService$2$override.class
-CHANGED,/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/sensordemo/DetectService$1$override.class
-CHANGED,/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/sensordemo/DetectService$override.class

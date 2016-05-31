@@ -1,13 +1,5 @@
 [
     {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_password.xml",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\layout\\activity_password.xml"
-    },
-    {
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_password.xml",
         "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\layout\\activity_password.xml"
     },

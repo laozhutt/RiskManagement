@@ -1,35 +1,11 @@
 [
     {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_sync_black_24dp.png",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_sync_black_24dp.png"
-    },
-    {
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lock.png",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\lock.png"
-    },
-    {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\train_but.png",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\train_but.png"
-    },
-    {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\training.jpg",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\training.jpg"
-    },
-    {
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\train_but.png",
         "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\drawable-hdpi\\train_but.png"
-    },
-    {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info_black_24dp.png",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_info_black_24dp.png"
-    },
-    {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\training.jpg",
@@ -44,20 +20,12 @@
         "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_sync_black_24dp.png"
     },
     {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_notifications_black_24dp.png",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_notifications_black_24dp.png"
-    },
-    {
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lock.png",
         "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\drawable-hdpi\\lock.png"
     },
     {
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info_black_24dp.png",
         "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_info_black_24dp.png"
-    },
-    {
-        "merged": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_icon.png",
-        "source": "I:\\Users\\herbertxu\\AndroidStudioProjects\\RiskManagementApp\\SensorDemo\\src\\main\\res\\drawable-hdpi\\setting_icon.png"
     },
     {
         "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_notifications_black_24dp.png",

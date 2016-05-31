@@ -107,7 +107,7 @@ public class CollectDataService extends Service implements SensorEventListener{
             @Override
             public void run() {
                 while(sensorDataList.size()<num) {
-                    //屏幕点亮才开始搜集
+                    //screen on
                     if(isScreenOn(CollectDataService.this)){
                         SensorData data = new SensorData();
                         data.accelerometerX = sensorData.accelerometerX;
@@ -128,17 +128,20 @@ public class CollectDataService extends Service implements SensorEventListener{
                         Log.e("CollectDataService", e.getMessage());
                     }
                 }
+
                 writeTxt();
                 try {
                     if(isFinish){
                         //TODO:After the server is setup, this should be uncommented
-                        //connection.postData(FilePath,getString(R.string.server_test_method));
+                        Log.e("post", "begin");
+                        connection.postData(FilePath,getString(R.string.server_test_method));
                     }
                     else {
                         //TODO:Same as above
-                        //if (connection.postData(FilePath, getString(R.string.server_train_method))) {
-                        //    isFinish = true;
-                        //}
+                        Log.e("post", "begin");
+                        if (connection.postData(FilePath, getString(R.string.server_train_method))) {
+                            isFinish = true;
+                        }
                         isFinish = true;
                     }
                 }
@@ -160,6 +163,7 @@ public class CollectDataService extends Service implements SensorEventListener{
 
 
     public void writeTxt(){
+
 
         String dir = Environment.getExternalStorageDirectory().getPath()+"/SensorDemoData";
         File fileDir = new File(dir);
@@ -235,7 +239,7 @@ public class CollectDataService extends Service implements SensorEventListener{
     }
 
     /**
-     * 判断屏幕是否被点亮
+     * screen on or off
      * @param context
      * @return
      */
@@ -243,10 +247,10 @@ public class CollectDataService extends Service implements SensorEventListener{
         PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         boolean screen = pm.isScreenOn();
         if(screen){
-            Log.e("screen","screen on");
+//            Log.e("screen","screen on");
             return true;
         }
-        Log.e("screen","screen off");
+//        Log.e("screen","screen off");
         return false;
     }
 
