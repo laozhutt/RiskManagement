@@ -107,7 +107,7 @@ public class CollectDataService extends Service implements SensorEventListener{
             @Override
             public void run() {
                 while(sensorDataList.size()<num) {
-                    //screen on
+
                     if(isScreenOn(CollectDataService.this)){
                         SensorData data = new SensorData();
                         data.accelerometerX = sensorData.accelerometerX;
@@ -177,9 +177,17 @@ public class CollectDataService extends Service implements SensorEventListener{
             Writer writer = new FileWriter(file,true);
 
             for(SensorData sensorData : sensorDataList){
-                Double ad = Math.sqrt(sensorData.accelerometerX*sensorData.accelerometerX+
-                        sensorData.accelerometerY*sensorData.accelerometerY+
-                        sensorData.accelerometerZ*sensorData.accelerometerZ);
+//                Double ad = Math.sqrt(sensorData.accelerometerX*sensorData.accelerometerX+
+//                        sensorData.accelerometerY*sensorData.accelerometerY+
+//                        sensorData.accelerometerZ*sensorData.accelerometerZ);
+                if(Math.abs(sensorData.gravityX)<0.1 && Math.abs(sensorData.gravityY)<0.1 && Math.abs(sensorData.gravityZ)<0.1){
+                    Log.e("device","error");
+                    continue;
+                }
+                if(Math.abs(sensorData.gravityX)<1.5 && Math.abs(sensorData.gravityY)<1.5 && Math.abs(sensorData.gravityZ)>9){
+                    Log.e("device","flat");
+                    continue;
+                }
                 String string = sensorData.accelerometerX+"\n"+
                         sensorData.accelerometerY+"\n"+
                         sensorData.accelerometerZ+"\n"+

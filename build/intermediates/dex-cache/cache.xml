@@ -1,3 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="I:\riskapp\RiskManagement\libs\httpmime-4.3.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\httpmime-4.3.5_ca5ee026e80c13b76fda042ac036cac494819a83.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\jna-platform-4.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\jna-platform-4.1.0_63b3c4d44f18965018bf5eb486b38607e8e53c69.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\httpclient-cache-4.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bd50ea83908dbf2f387a333216e66d2f0c5079bd">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.2_1fbaa9400a6bafc2e94e7f2926eb1a903fa0a111.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\commons-codec-1.9_246ff8ef125574ce2ed29c88d03a972a61c9bb14.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\jna-4.1.0_7951f773361415f1a48c2d7e01007411ee6da2dd.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\httpcore-4.3.2_97964183bd4b72f2f5e0bd4096f5d33cb85e14b4.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\httpclient-win-4.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="80635f3fdebcb3687ca3246214e597916504b996">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\httpclient-win-4.5.2_2ff180fa50c10655c6738d7e3f539ed79b3fb09e.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\fluent-hc-4.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7bfdfa49de6d720ad3c8cedb6a5238eec564dfed">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\fluent-hc-4.5.2_55f7499a961655ceb2f7b2d15f7b1acc96cfcda1.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\httpclient-4.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\httpclient-4.5.2_f07293bdda7349c60634852f99785586377feadf.jar" />
+    </item>
+    <item
+        jar="I:\riskapp\RiskManagement\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="I:\riskapp\RiskManagement\SensorDemo\build\intermediates\pre-dexed\debug\commons-logging-1.2_24dc10dbd67e4a0dcee482fe201004139bbf41b7.jar" />
+    </item>
+
+</items>

@@ -739,8 +739,8 @@
                     "startLine": 64,
                     "startColumn": 4,
                     "startOffset": 3103,
-                    "endColumn": 56,
-                    "endOffset": 3155
+                    "endColumn": 69,
+                    "endOffset": 3168
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
@@ -748,8 +748,8 @@
                         "startLine": 88,
                         "startColumn": 4,
                         "startOffset": 3445,
-                        "endColumn": 56,
-                        "endOffset": 3497
+                        "endColumn": 69,
+                        "endOffset": 3510
                     }
                 }
             },
@@ -757,18 +757,18 @@
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 3160,
+                    "startOffset": 3173,
                     "endColumn": 58,
-                    "endOffset": 3214
+                    "endOffset": 3227
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
-                        "startOffset": 3549,
+                        "startOffset": 3562,
                         "endColumn": 58,
-                        "endOffset": 3603
+                        "endOffset": 3616
                     }
                 }
             },
@@ -776,18 +776,18 @@
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 3219,
+                    "startOffset": 3232,
                     "endColumn": 44,
-                    "endOffset": 3259
+                    "endOffset": 3272
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
-                        "startOffset": 3503,
+                        "startOffset": 3516,
                         "endColumn": 44,
-                        "endOffset": 3543
+                        "endOffset": 3556
                     }
                 }
             },
@@ -795,18 +795,18 @@
                 "to": {
                     "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 3264,
+                    "startOffset": 3277,
                     "endColumn": 57,
-                    "endOffset": 3317
+                    "endOffset": 3330
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
-                        "startOffset": 3719,
+                        "startOffset": 3732,
                         "endColumn": 57,
-                        "endOffset": 3772
+                        "endOffset": 3785
                     }
                 }
             },
@@ -814,18 +814,18 @@
                 "to": {
                     "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 3322,
+                    "startOffset": 3335,
                     "endColumn": 51,
-                    "endOffset": 3369
+                    "endOffset": 3382
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
-                        "startOffset": 3664,
+                        "startOffset": 3677,
                         "endColumn": 51,
-                        "endOffset": 3711
+                        "endOffset": 3724
                     }
                 }
             },
@@ -833,18 +833,18 @@
                 "to": {
                     "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 3374,
+                    "startOffset": 3387,
                     "endColumn": 53,
-                    "endOffset": 3423
+                    "endOffset": 3436
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
-                        "startOffset": 3609,
+                        "startOffset": 3622,
                         "endColumn": 53,
-                        "endOffset": 3658
+                        "endOffset": 3671
                     }
                 }
             },
@@ -852,9 +852,9 @@
                 "to": {
                     "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 3428,
+                    "startOffset": 3441,
                     "endColumn": 38,
-                    "endOffset": 3462
+                    "endOffset": 3475
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
@@ -871,9 +871,9 @@
                 "to": {
                     "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 3467,
+                    "startOffset": 3480,
                     "endColumn": 37,
-                    "endOffset": 3500
+                    "endOffset": 3513
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
@@ -890,9 +890,9 @@
                 "to": {
                     "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 3505,
+                    "startOffset": 3518,
                     "endColumn": 60,
-                    "endOffset": 3561
+                    "endOffset": 3574
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
@@ -909,9 +909,9 @@
                 "to": {
                     "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 3566,
+                    "startOffset": 3579,
                     "endColumn": 38,
-                    "endOffset": 3600
+                    "endOffset": 3613
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\strings.xml",
@@ -928,10 +928,10 @@
                 "to": {
                     "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 3605,
+                    "startOffset": 3618,
                     "endLine": 80,
                     "endColumn": 12,
-                    "endOffset": 3891
+                    "endOffset": 3904
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\styles.xml",
@@ -949,10 +949,10 @@
                 "to": {
                     "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 3896,
+                    "startOffset": 3909,
                     "endLine": 84,
                     "endColumn": 12,
-                    "endOffset": 4106
+                    "endOffset": 4119
                 },
                 "from": {
                     "file": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\values\\styles.xml",
