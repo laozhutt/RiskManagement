@@ -1,18 +1,18 @@
 [
     {
-        "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
-        "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\xml\\pref_general.xml"
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_general.xml"
     },
     {
-        "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
-        "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\xml\\pref_headers.xml"
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_data_sync.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_data_sync.xml"
     },
     {
-        "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
-        "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\xml\\pref_notification.xml"
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_notification.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_notification.xml"
     },
     {
-        "merged": "I:\\riskapp\\RiskManagement\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
-        "source": "I:\\riskapp\\RiskManagement\\SensorDemo\\src\\main\\res\\xml\\pref_data_sync.xml"
+        "merged": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/Users/herbertxu/AndroidStudioProjects/RiskManagementApp/SensorDemo/src/main/res/xml/pref_headers.xml"
     }
 ]

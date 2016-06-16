@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.app.Service;
+import android.view.WindowManager;
 import android.widget.EditText;
 
 import com.sensordemo.DetectService;
@@ -44,11 +45,13 @@ public class CustomizedDialog{
             }
 
         };
-        new AlertDialog.Builder(service)
+        AlertDialog alert = new AlertDialog.Builder(service)
                 .setTitle("Suspicious User")
                 .setMessage("Please verify your identification")
                 //.setView(password)
                 .setPositiveButton("Verify",listener)
-                .show();
+                .create();
+        alert.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+        alert.show();
     }
 }

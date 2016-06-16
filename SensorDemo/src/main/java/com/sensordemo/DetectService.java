@@ -83,7 +83,7 @@ public class DetectService extends Service {
 
     private void generateAlarm(){
         //TODO: generate the alarm
-        //createAlarmLocal(this);
+        CustomizedDialog.createAlarm(this);
     }
 
 
