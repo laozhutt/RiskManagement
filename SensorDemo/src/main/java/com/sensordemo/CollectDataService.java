@@ -11,7 +11,7 @@ import android.os.Binder;
 import android.os.Environment;
 import android.os.IBinder;
 
-import com.sensordemo.com.sensordemo.util.ConnectionHandler;
+import com.sensordemo.utils.ConnectionHandler;
 
 import java.io.File;
 import java.io.FileWriter;

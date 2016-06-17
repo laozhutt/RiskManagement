@@ -6,23 +6,38 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95336b94-43cf-4ef6-9fd5-c6acfd0bd34f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RiskManagement.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/commons-codec-1.9_246ff8ef125574ce2ed29c88d03a972a61c9bb14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/commons-logging-1.2_24dc10dbd67e4a0dcee482fe201004139bbf41b7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/debug_edec940d3c07a2c016202e49eac550208f0265cf.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/fluent-hc-4.5.2_55f7499a961655ceb2f7b2d15f7b1acc96cfcda1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/httpclient-4.5.2_f07293bdda7349c60634852f99785586377feadf.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/httpclient-cache-4.5.2_1fbaa9400a6bafc2e94e7f2926eb1a903fa0a111.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/httpclient-win-4.5.2_2ff180fa50c10655c6738d7e3f539ed79b3fb09e.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/httpcore-4.3.2_97964183bd4b72f2f5e0bd4096f5d33cb85e14b4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/httpmime-4.3.5_ca5ee026e80c13b76fda042ac036cac494819a83.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/jna-4.1.0_7951f773361415f1a48c2d7e01007411ee6da2dd.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/pre-dexed/debug/jna-platform-4.1.0_63b3c4d44f18965018bf5eb486b38607e8e53c69.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/ConnectionHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/ConnectionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/ResourceManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/com/sensordemo/util/ConnectionHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/com/sensordemo/util/ConnectionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/com/sensordemo/util/ResourceManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/com/sensordemo/util/ConnectionHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/com/sensordemo/util/ConnectionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/com/sensordemo/util/CustomizedDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/com/sensordemo/util/CustomizedDialog$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/com/sensordemo/util/CustomizedDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/com/sensordemo/util/ResourceManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/sensordemo/com/sensordemo/util/ConnectionHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/sensordemo/com/sensordemo/util/ConnectionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/sensordemo/com/sensordemo/util/CustomizedDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/sensordemo/com/sensordemo/util/CustomizedDialog$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/sensordemo/com/sensordemo/util/CustomizedDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/sensordemo/com/sensordemo/util/ResourceManager.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/ConnectionHandler.java" afterPath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/ConnectionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/CustomizedDialog.java" afterPath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/CustomizedDialog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/ResourceManager.java" afterPath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/ResourceManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -32,51 +47,58 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_SensorDemo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_SensorDemo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_SensorDemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_SensorDemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_SensorDemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_SensorDemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/CollectDataService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/CollectDataService$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/CollectDataService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/CollectDataService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService$2.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService$DetectBinder.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService$DetectBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/DetectService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/R.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/SettingsActivity.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/SettingsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/ConnectionHandler.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/ConnectionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$2.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/com/sensordemo/util/CustomizedDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/PasswordActivity.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/classes/debug/com/sensordemo/PasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/CollectDataService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/CollectDataService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/CollectDataService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/CollectDataService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService$2.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService$DetectBinder.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService$DetectBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/DetectService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/PasswordActivity.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental-verifier/debug/com/sensordemo/PasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/classes.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/resources.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7d55043444824b0cea3506b1ec17a40434bcff2d/classes.dex" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7d55043444824b0cea3506b1ec17a40434bcff2d/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/CollectDataService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/CollectDataService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/CollectDataService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/CollectDataService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService$2.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService$DetectBinder.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService$DetectBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/DetectService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/PasswordActivity.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/sensordemo/PasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/CollectDataService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/CollectDataService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/CollectDataService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/CollectDataService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService$1.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService$2.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService$DetectBinder.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService$DetectBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/DetectService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/PasswordActivity.class" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/sensordemo/PasswordActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/outputs/apk/SensorDemo-debug-unaligned.apk" afterPath="$PROJECT_DIR$/SensorDemo/build/outputs/apk/SensorDemo-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/outputs/apk/SensorDemo-debug.apk" afterPath="$PROJECT_DIR$/SensorDemo/build/outputs/apk/SensorDemo-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/SensorDemo.iml" afterPath="$PROJECT_DIR$/SensorDemo/SensorDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build.gradle" afterPath="$PROJECT_DIR$/SensorDemo/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/blame/res/debug/single/xml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/instant-run-support/debug/reload-changes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/SensorDemo/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/SensorDemo/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SensorDemo/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/CollectDataService.java" afterPath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/CollectDataService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java" afterPath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/CustomizedDialog.java" afterPath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/CustomizedDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/PasswordActivity.java" afterPath="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/PasswordActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="RiskManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,16 +136,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="276" column="42" selection-start-line="276" selection-start-column="42" selection-end-line="276" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,35 +146,104 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetectService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java">
+      <file leaf-file-name="PasswordActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/PasswordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="111" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1575#2168#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomizedDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/CustomizedDialog.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SensorDemo/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/SettingsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetectService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1022#1056#0" expanded="true" />
+                <element signature="e#1074#1105#0" expanded="true" />
+                <element signature="e#1550#2143#0" expanded="true" />
+                <element signature="e#2142#2143#0" expanded="true" />
+                <element signature="e#2343#2344#0" expanded="true" />
+                <element signature="e#2398#2399#0" expanded="true" />
+                <element signature="e#2518#2560#0" expanded="true" />
+                <element signature="e#2918#2960#0" expanded="true" />
+                <element signature="e#3211#3212#0" expanded="true" />
+                <element signature="e#3247#3248#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomizedDialog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/CustomizedDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5598194">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1267#1490#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/ConnectionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/ResourceManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6801909">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state vertical-scroll-proportion="-6.8333335">
+              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -1783,14 +1864,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SensorDemo/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/CollectDataService.java" />
         <option value="$PROJECT_DIR$/SensorDemo/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/CustomizedDialog.java" />
-        <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java" />
         <option value="$PROJECT_DIR$/SensorDemo/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/SensorDemo/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/ResourceManager.java" />
+        <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/CollectDataService.java" />
+        <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/PasswordActivity.java" />
         <option value="$PROJECT_DIR$/SensorDemo/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java" />
+        <option value="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/CustomizedDialog.java" />
       </list>
     </option>
   </component>
@@ -1933,6 +2017,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiskManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiskManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SensorDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensordemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiskManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiskManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SensorDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensordemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1946,6 +2094,11 @@
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SensorDemo/settings.gradle" />
     <property name="device.picker.selection" value="Nexus_5X_API_23" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.SensorDemo">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2228,34 +2381,34 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5593705" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5565093" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.4828326" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.10586552" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.89413446" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2275,22 +2428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RiskManagementApp.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2313,8 +2450,16 @@
           <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1575#2168#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#1022#1056#0" expanded="true" />
+            <element signature="e#1074#1105#0" expanded="true" />
+            <element signature="e#1550#2143#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2518#2560#0" expanded="true" />
+            <element signature="e#2918#2960#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2331,22 +2476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/ConnectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="59" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/CustomizedDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -2381,8 +2510,16 @@
           <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1575#2168#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#1022#1056#0" expanded="true" />
+            <element signature="e#1074#1105#0" expanded="true" />
+            <element signature="e#1550#2143#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2518#2560#0" expanded="true" />
+            <element signature="e#2918#2960#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2433,8 +2570,16 @@
           <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1575#2168#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#1022#1056#0" expanded="true" />
+            <element signature="e#1074#1105#0" expanded="true" />
+            <element signature="e#1550#2143#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2518#2560#0" expanded="true" />
+            <element signature="e#2918#2960#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2478,14 +2623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="265" column="51" selection-start-line="265" selection-start-column="51" selection-end-line="265" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/ConnectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2496,8 +2633,16 @@
           <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1575#2168#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#1022#1056#0" expanded="true" />
+            <element signature="e#1074#1105#0" expanded="true" />
+            <element signature="e#1550#2143#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2518#2560#0" expanded="true" />
+            <element signature="e#2918#2960#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2537,22 +2682,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/ConnectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="147" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="147" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1575#2168#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#1022#1056#0" expanded="true" />
+            <element signature="e#1074#1105#0" expanded="true" />
+            <element signature="e#1550#2143#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2518#2560#0" expanded="true" />
+            <element signature="e#2918#2960#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2591,38 +2736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/CollectDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/ConnectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="59" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2651,39 +2764,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SensorDemo/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4676259">
           <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="276" column="42" selection-start-line="276" selection-start-column="42" selection-end-line="276" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1575#2168#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2695,19 +2780,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/com/sensordemo/util/CustomizedDialog.java">
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/CollectDataService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="268" column="29" selection-start-line="268" selection-start-column="29" selection-end-line="268" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2114#2147#0" expanded="true" />
+            <element signature="e#2625#2660#0" expanded="true" />
+            <element signature="e#3079#3112#0" expanded="true" />
+            <element signature="e#3234#3276#0" expanded="true" />
+            <element signature="e#3461#3496#0" expanded="true" />
+            <element signature="e#3561#3604#0" expanded="true" />
+            <element signature="e#3976#4019#0" expanded="true" />
+            <element signature="e#4061#4103#0" expanded="true" />
+            <element signature="e#4225#4258#0" expanded="true" />
+            <element signature="e#4309#4352#0" expanded="true" />
+            <element signature="e#4860#4903#0" expanded="true" />
+            <element signature="e#5334#5369#0" expanded="true" />
+            <element signature="e#7052#7087#0" expanded="true" />
+            <element signature="e#7388#7428#0" expanded="true" />
+            <element signature="e#7917#7957#0" expanded="true" />
+            <element signature="e#8110#8145#0" expanded="true" />
+            <element signature="e#8410#8450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/HttpRequestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/ConnectionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-21/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.101580136">
+          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-21/android.jar!/dalvik/system/BaseDexClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.045673076">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6801909">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state vertical-scroll-proportion="-6.8333335">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/ResourceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/PasswordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="111" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/DetectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1022#1056#0" expanded="true" />
+            <element signature="e#1074#1105#0" expanded="true" />
+            <element signature="e#1550#2143#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2518#2560#0" expanded="true" />
+            <element signature="e#2918#2960#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensorDemo/src/main/java/com/sensordemo/utils/CustomizedDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5598194">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1267#1490#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

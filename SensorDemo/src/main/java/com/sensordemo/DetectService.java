@@ -14,12 +14,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
-import com.sensordemo.com.sensordemo.util.ConnectionHandler;
-import com.sensordemo.com.sensordemo.util.CustomizedDialog;
+import com.sensordemo.utils.ConnectionHandler;
+import com.sensordemo.utils.CustomizedDialog;
 
 
 import java.util.Timer;
 import java.util.TimerTask;
+
 
 public class DetectService extends Service {
     ConnectionHandler conn;
@@ -43,7 +44,7 @@ public class DetectService extends Service {
             public void handleMessage(Message m){
                 switch(m.what){
                     case MESSAGE_DETECT_NEGATIVE:
-                        generateAlarm();
+                        generateAlarm("");
                     default:
                         break;
                 }
@@ -81,9 +82,8 @@ public class DetectService extends Service {
         startTimer();
     }
 
-    private void generateAlarm(){
-        //TODO: generate the alarm
-        CustomizedDialog.createAlarm(this);
+    private void generateAlarm(String info){
+        CustomizedDialog.createAlarm(this,info);
     }
 
 
@@ -93,6 +93,20 @@ public class DetectService extends Service {
         if(String.valueOf(password.hashCode()).equals(hash))
             return true;
         return false;
+    }
+
+    public boolean checkPassword(String s){
+        if(MainActivity.configureObject == null){
+            Log.d("PasswordActivity","Cannot load configureProperties");
+        }
+        String hash = MainActivity.configureObject.getProperty(getString(R.string.password_property_name));
+        if(String.valueOf(s.hashCode()).equals(hash)){
+            return true;
+        }
+        else {
+            generateAlarm("Wrong Password");
+            return false;
+        }
     }
 
     @Override

@@ -17,7 +17,7 @@
 
 
     <application
-        android:name=".com.sensordemo.util.ResourceManager"
+        android:name=".utils.ResourceManager"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"

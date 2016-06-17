@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.sensordemo.com.sensordemo.util.CustomizedDialog;
+import com.sensordemo.utils.CustomizedDialog;
 
 public class PasswordActivity extends Activity {
 
