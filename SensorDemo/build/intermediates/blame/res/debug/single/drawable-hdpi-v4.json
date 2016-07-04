@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_icon.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\setting_icon.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info_black_24dp.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_info_black_24dp.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\train_but.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\train_but.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_notifications_black_24dp.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_sync_black_24dp.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_sync_black_24dp.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher1.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher1.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\training.jpg",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\training.jpg"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lock.png",
+        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\drawable-hdpi\\lock.png"
+    }
+]

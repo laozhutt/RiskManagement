@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:2:1-55:12
+	package
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+		INJECTED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.INTERNET
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:16:22-75
+application
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:19:5-53:19
+	android:label
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:23:9-41
+	android:allowBackup
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:22:9-46
+	android:theme
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:20:9-46
+android:use-permission
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:26:9-86
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:26:33-83
+activity#com.sensordemo.MainActivity
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:29:9-37:20
+	android:label
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:30:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:35:27-74
+service#com.sensordemo.CollectDataService
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:39:9-42:39
+	android:enabled
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:40:13-47
+activity#com.sensordemo.SettingsActivity
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:44:9-46:63
+	android:label
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:46:13-60
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:45:13-45
+activity#com.sensordemo.PasswordActivity
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:47:9-54
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:47:19-51
+service#com.sensordemo.DetectService
+ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:49:9-52:47
+	android:enabled
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:51:13-35
+	android:exported
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from G:\riskapp\RiskManagement-dev\SensorDemo\src\main\AndroidManifest.xml:50:13-42
