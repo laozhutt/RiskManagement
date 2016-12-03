@@ -16,6 +16,7 @@ import com.sensordemo.DetectService;
 public class CustomizedDialog{
     private static String whoIsUsedResult;
     private static String disableLengthResult;
+
     public static void createSimpleDialog(final Activity activity, String title, String message, boolean finish){
         DialogInterface.OnClickListener listener = null;
         if(finish == true){
@@ -34,12 +35,13 @@ public class CustomizedDialog{
 
     }
     public static void createAlarm(final DetectService service, String info){
+
         if(!info.equals("")){
             info += "\n";
         }
         //final EditText password = new EditText(service);
         final EditText password = new EditText(service);
-        String[] str={ "self" , "others" };
+//        String[] str={ "self" , "others" };
 
         DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener(){
             @Override
@@ -105,6 +107,7 @@ public class CustomizedDialog{
         DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialog, int which){
+                DetectService.rep = 0;
                 service.disableLength(disableLengthResult);
             }
 
@@ -114,6 +117,7 @@ public class CustomizedDialog{
                 .setSingleChoiceItems(str, 0, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+
 
                         disableLengthResult = str[which];
 

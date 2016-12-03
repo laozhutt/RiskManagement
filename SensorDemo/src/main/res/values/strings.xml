@@ -73,6 +73,8 @@
     <string name="app_state_ready">Ready</string>
     <string name="app_state_collecting">Collecting Data</string>
     <string name="app_state_protecting">Protecting</string>
+    <string name="app_state_processing">Processing</string>
+
 
     <string name="password_property_name">PasswordHash</string>
     <string name="property_collectservice_name">CollectService</string>
@@ -88,7 +90,7 @@
     <string name="password_label_enter_old">Please Enter Your Old Password</string>
 
     <string name="server_address">garuda.cs.northwestern.edu</string>
-    <string name="server_port"></string>
+    <string name="server_port">8080</string>
     <string name="server_get_result_method">query</string>
     <string name="server_train_method">train</string>
     <string name="server_test_method">test</string>

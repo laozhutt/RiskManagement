@@ -31,6 +31,7 @@
     <string name="app_name">SensorDemo</string>
     <string name="app_state_collecting">Collecting Data</string>
     <string name="app_state_ini">Initializing</string>
+    <string name="app_state_processing">Processing</string>
     <string name="app_state_protecting">Protecting</string>
     <string name="app_state_ready">Ready</string>
     <string name="end">停止收集</string>
@@ -65,7 +66,7 @@
     <string name="property_imei">imei</string>
     <string name="server_address">garuda.cs.northwestern.edu</string>
     <string name="server_get_result_method">query</string>
-    <string name="server_port"/>
+    <string name="server_port">8080</string>
     <string name="server_response_ok">upload ok!</string>
     <string name="server_test_method">test</string>
     <string name="server_train_method">train</string>

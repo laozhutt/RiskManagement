@@ -1,10 +1,14 @@
 package com.sensordemo;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.telephony.TelephonyManager;
@@ -19,6 +23,8 @@ import android.os.Message;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -28,28 +34,28 @@ import java.util.TimerTask;
 public class MainActivity extends Activity {
 
 
-	private TextView stateView;
+	public static TextView stateView;
 	private TextView numberView;
-	private ImageView trainButton;
-	private ImageView lockButton;
+	public static ImageView trainButton;
+	public static ImageView lockButton;
 	private TextView progressView;
 
-	private int dataNumber;
-	private int fileNumber;//多少个文件才算训练够
+	public static int dataNumber;
+	public static int fileNumber = 0;//多少个文件才算训练够
 
 	private CollectDataService.CollectDataBinder collectDataBinder;
-	private CollectDataService collectDataService;
+	public static CollectDataService collectDataService;//全局使用
 	private ServiceConnection collectDataServiceConnection;
-	private boolean isCollecting;
-	private Timer CollectTimer;
-	private Timer DetectTimer;
+	public static boolean isCollecting;
+	public static Timer CollectTimer;
+	public static Timer DetectTimer;
 
 	private DetectService.DetectBinder detectBinder;
-	private DetectService detectService;
+	public static  DetectService detectService;
 	private ServiceConnection detectDataServiceConnection;
-	private boolean isDetecting;
+	public static boolean isDetecting;
 
-	private boolean isTrainFinished;
+	public static boolean isTrainFinished;
 
 	public static final String configureFilePath = "config.xml";
 
@@ -65,6 +71,10 @@ public class MainActivity extends Activity {
 	final static int MESSAGE_SET_INVISIBLE =3;
 	final static int MESSAGE_STOP_DETECT =4;
 	final static int MESSAGE_LEGAL_FILE =5;
+	final static int MESSAGE_CLICK_LOCKBUTTON = 6;
+	final static int MESSAGE_HANDLE_TRAIN = 7;
+	final static int MESSAGE_HANDLE_TEST = 8;
+	final static int MESSAGE_HANDLE_ALARM = 9;
 
 
 	public static boolean isSet;
@@ -72,7 +82,13 @@ public class MainActivity extends Activity {
 	private Intent detectIntent;
 	private Intent collectIntent;
 
+	private MyBroadcast mybroadcast;
+
 	public static Handler messageHandler;
+
+
+
+
 
 
 
@@ -81,6 +97,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		this.startService(new Intent(this, LongService.class));
 		stateView = (TextView) findViewById (R.id.state);
 
 		numberView = (TextView) findViewById (R.id.number);
@@ -101,6 +118,7 @@ public class MainActivity extends Activity {
 		collectIntent = new Intent(this,CollectDataService.class);
 
 		lockButton.setVisibility(View.INVISIBLE);
+
 		messageHandler = new Handler(){
 			public void handleMessage(Message m){
 				switch(m.what){
@@ -109,6 +127,7 @@ public class MainActivity extends Activity {
 						break;
 					case MESSAGE_CHANGE_STATE:
 						stateView.setText(getString(R.string.app_state_ready));
+//						lockButton.setVisibility(View.VISIBLE);//训练完按钮可见
 						break;
 					case MESSAGE_SET_INVISIBLE:
 //						lockButton.setVisibility(View.VISIBLE);
@@ -116,19 +135,45 @@ public class MainActivity extends Activity {
 					case MESSAGE_STOP_DETECT:
 						stopDetectTimer();
 					case MESSAGE_LEGAL_FILE:
-						if(fileNumber < 10){
+						if(fileNumber < 100){
 							fileNumber = fileNumber + 1;
+//							Log.e("progress",fileNumber+"");
 						}
-						if(fileNumber == 10){
-							lockButton.setVisibility(View.VISIBLE);//训练完按钮可见
+						if(fileNumber == 100){
+//							lockButton.setVisibility(View.VISIBLE);//训练完按钮可见
 //							trainButton.setClickable(false);//训练完就不让训练了
 						}
 
-						configureObject.setProperty(getString(R.string.property_file_number), String.valueOf(fileNumber * 10));
+						Log.e("progress",fileNumber+"");
+						configureObject.setProperty(getString(R.string.property_file_number), String.valueOf(fileNumber));
+//						progressView.setText(Integer.parseInt(configureObject.getProperty(getString(R.string.property_file_number)))*10 + "%");
 						progressView.setText(configureObject.getProperty(getString(R.string.property_file_number)) + "%");
 						recordFile();
+						break;
+					case MESSAGE_HANDLE_TRAIN:
+						Log.e("broadcasttrain","start");
+						trainButton.performClick();
+						break;
+					case MESSAGE_HANDLE_TEST:
+						if(isCollecting){
+							if(lockButton.getVisibility() == View.VISIBLE){
+								lockButton.performClick();
+								lockButton.performClick();
+							}
 
+						}
+						else{
+							if(lockButton.getVisibility() == View.VISIBLE){
+								lockButton.performClick();
+							}
 
+						}
+						break;
+					case MESSAGE_HANDLE_ALARM:
+//						detectService.pauseDetectService();
+						detectService.startDetectService();
+//					case MESSAGE_CLICK_LOCKBUTTON:
+//						lockButton.performClick();
 					default:
 						break;
 				}
@@ -136,6 +181,11 @@ public class MainActivity extends Activity {
 		};
 
 		configureObject = new Properties();
+
+		mybroadcast = new MyBroadcast();
+		IntentFilter filter = new IntentFilter();
+		filter.addAction("com.train.test");
+		registerReceiver(mybroadcast, filter);  //注册Broadcast Receiver,接受应用开启的信号
 		try {
 			isSet = false;
 
@@ -159,8 +209,12 @@ public class MainActivity extends Activity {
 //				trainButton.setClickable(false);//训练完就不让训练了
 			}
 
-			fileNumber = Integer.parseInt(configureObject.getProperty(getString(R.string.property_file_number)))/10;
-			progressView.setText(configureObject.getProperty(getString(R.string.property_file_number)) + "%");
+
+
+			fileNumber = Integer.parseInt(configureObject.getProperty(getString(R.string.property_file_number)));
+//			int f = (int)fileNumber;
+			progressView.setText(fileNumber + "%");
+//			progressView.setText(configureObject.getProperty(getString(R.string.property_file_number)) + "%");
 //			Log.e("filenumber", String.valueOf(fileNumber));
 //			Log.e("imei",configureObject.getProperty(getString(R.string.property_imei)));
 			//configureObject.setProperty("TrainFinish","false");
@@ -168,6 +222,8 @@ public class MainActivity extends Activity {
 			//pwhs = "null";
 //			Log.e("password", pwhs);
 			if(pwhs.equals("null")){
+//				Log.e("pwhs","22222222222222222222222222222222");
+//				startActivity(new Intent(this, PasswordActivity.class));
 				startActivityForResult(new Intent(this, PasswordActivity.class), SETPASSWORD);
 			}
 
@@ -201,7 +257,7 @@ public class MainActivity extends Activity {
 			TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 			configureObject.setProperty(getString(R.string.property_imei),tm.getDeviceId());
 			configureObject.setProperty(getString(R.string.property_collect_finish),"false");
-			startActivityForResult(new Intent(this,PasswordActivity.class),SETPASSWORD);
+//			startActivityForResult(new Intent(this,PasswordActivity.class),SETPASSWORD);
 		}
 		catch (Exception e){
 			Log.e("Load Error", e.getMessage());
@@ -210,6 +266,7 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
+		unregisterReceiver(mybroadcast);//取消注册
 		super.onDestroy();
 		if(detectService!= null){
 			unbindService(detectDataServiceConnection);
@@ -277,7 +334,7 @@ public class MainActivity extends Activity {
 			}
 		};
 		startService(detectIntent);
-		bindService(new Intent(this,DetectService.class),detectDataServiceConnection,BIND_AUTO_CREATE);
+		bindService(new Intent(this, DetectService.class), detectDataServiceConnection, BIND_AUTO_CREATE);
 	}
 
 	public void startPasswordSetting(View view){
@@ -301,10 +358,12 @@ public class MainActivity extends Activity {
 				//TODO: generate a dialog to let user wait for a while
 				return;
 			}
-			detectService.startDetectService();
-			collectDataService.isFinish = true;
+
+			collectDataService.isFinish = true;//collect 150
 //			collectDataService.collect();
 			startDetectTimer();
+
+//			detectService.startDetectService();//检测线程
 			isCollecting = true;
 			isDetecting = true;
 			stateView.setText(getString(R.string.app_state_protecting));
@@ -313,6 +372,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void onCollectButtonClick(View view){
+
 		if(isSet == false){
 			startPasswordSetting(view);
 		}
@@ -363,7 +423,16 @@ public class MainActivity extends Activity {
 				Message m = new Message();
 				m.what = MESSAGE_UPDATE_NUMBER;
 				messageHandler.sendMessage(m);
+//				Log.e("startCollectTimer","run");
+				if(dataNumber == 150){
+					m = new Message();
+					m.what = MESSAGE_CHANGE_STATE;
+					messageHandler.sendMessage(m);
+					isCollecting = false;
+					CollectTimer.cancel();
+				}
 				if(collectDataService.isFinish){
+
 					isTrainFinished = true;
 					CollectTimer.cancel();
 					isCollecting = false;
@@ -374,12 +443,22 @@ public class MainActivity extends Activity {
 					m.what = MESSAGE_SET_INVISIBLE;
 					messageHandler.sendMessage(m);
 				}
+				//一开始train时候的显示切换（ready or collecting）
+//				if(collectDataService.uploadTrain){
+//					isTrainFinished = true;
+//					CollectTimer.cancel();
+//					isCollecting = false;
+//					collectDataService.uploadTrain = false;
+//					m = new Message();
+//					m.what = MESSAGE_CHANGE_STATE;
+//					messageHandler.sendMessage(m);
+//				}
 			}
 		},1000,1000);
 	}
 
 	/**
-	 * 间隔5秒钟一次，不断搜集数据上传检测，搜集数据每次为3秒钟
+	 * 只检测一次，搜集数据每次为3秒钟
 	 */
 	private void startDetectTimer(){
 		DetectTimer = new Timer();
@@ -387,7 +466,19 @@ public class MainActivity extends Activity {
 			@Override
 			public void run() {
 
-				collectDataService.collect();
+				try{
+
+
+					collectDataService.collect();
+
+					DetectTimer.cancel();
+//					Log.e("startDetectTimer","cancel");
+				}catch (Exception e) {
+					Log.e("DetectTimer", e.getMessage());
+					DetectTimer.cancel();
+
+				}
+
 			}
 		},0,5000);
 	}
@@ -407,6 +498,33 @@ public class MainActivity extends Activity {
 			Log.e("recordFile",e.getMessage());
 		}
 	}
+
+
+
+	public class MyBroadcast extends BroadcastReceiver {
+
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			String state = intent.getStringExtra("state");
+			if(state.equals("train")){
+				Message m = new Message();
+				m.what = MESSAGE_HANDLE_TRAIN;
+				messageHandler.sendMessage(m);
+			}
+			if(state.equals("test")){
+				Message m = new Message();
+				m.what = MESSAGE_HANDLE_TEST;
+				messageHandler.sendMessage(m);
+			}
+			if(state.equals("alarm")){
+				Message m = new Message();
+				m.what = MESSAGE_HANDLE_ALARM;
+				messageHandler.sendMessage(m);
+			}
+		}
+	}
+
+
 
 
 

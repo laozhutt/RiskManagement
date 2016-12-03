@@ -1,10 +1,10 @@
 [
     {
-        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_password.xml",
-        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\layout\\activity_password.xml"
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_password.xml",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\layout\\activity_password.xml"
     },
     {
-        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]

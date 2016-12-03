@@ -30,9 +30,12 @@ public class DetectService extends Service {
 
     private Handler messageHandler;
     private MainActivity mainActivity;
+    private Timer FeedbackTimer;
 
     final static int MESSAGE_DETECT_NEGATIVE=1;
     final static int MESSAGE_STOP_DETECT =4;
+
+    public static int rep = 0;
 
     @Override
     public void onCreate(){
@@ -47,7 +50,7 @@ public class DetectService extends Service {
             public void handleMessage(Message m){
                 switch(m.what){
                     case MESSAGE_DETECT_NEGATIVE:
-                        generateAlarm("");
+//                        generateAlarm("");
                     default:
                         break;
                 }
@@ -61,22 +64,42 @@ public class DetectService extends Service {
             @Override
             public void run() {
                 try {
-                    Log.e("alarm","ing");
-                    if (conn.getResult() == false) {
-                    Message m = new Message();
-                    m.what = MESSAGE_DETECT_NEGATIVE;
-                    messageHandler.sendMessage(m);
-                    timer.cancel();
+
+                    Log.e("alarmDetect", "begin");
+
+                    if (conn.getResult(ConnectionHandler.VERSION ) == false) {
+                        Message m = new Message();
+                        m.what = MESSAGE_DETECT_NEGATIVE;
+                        messageHandler.sendMessage(m);
+                        timer.cancel();
 
                     }
-                }
-                catch (Exception e){
-                    Log.e("DetectService",e.getMessage());
+                    else{
+                        timer.cancel();
+                    }
+                } catch (Exception e) {
+                    Log.e("DetectService", e.getMessage());
                     timer.cancel();
                     instance.stopSelf();
                 }
             }
-        },1000,10000);
+        }, 1000, 10000);
+    }
+
+    /**
+     * 反馈一次
+     */
+    private void startFeedbackTimer(final String version, final String signal){
+        FeedbackTimer = new Timer();
+        FeedbackTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+
+                if(conn.selfOrOthers(version,signal)){
+                    FeedbackTimer.cancel();
+                }
+            }
+        },0,1000);
     }
 
     public void pauseDetectService(){
@@ -88,10 +111,16 @@ public class DetectService extends Service {
     }
 
     private void generateAlarm(String info){
-        CustomizedDialog.createAlarm(this, info);
+        if(rep == 0){
+            CustomizedDialog.createAlarm(this, info);
+        }
+//        rep = 1;
+
     }
-    private void generateWhoIsUsed(String info){
+        private void generateWhoIsUsed(String info){
+
         CustomizedDialog.generateWhoIsUsed(this, info);
+
     }
 
     private void generateDisableLength(String info){
@@ -121,7 +150,16 @@ public class DetectService extends Service {
         }
     }
 
-    public boolean whoInUsed(String result){
+    public boolean whoInUsed(String whoIsUsedResult){
+        String result;
+        if(whoIsUsedResult.equals("self")){
+            result = "1";
+        }
+        else{
+            result = "0";
+        }
+        //反馈学习
+        startFeedbackTimer(ConnectionHandler.VERSION, result);
         generateDisableLength("");
         return true;
     }
@@ -130,8 +168,8 @@ public class DetectService extends Service {
         Log.e("disableLength",result);
         if(result.equals("never")){
             //continue to verify
-            //重新开始弹窗线程
-            startTimer();
+            //重新开始弹窗线程,由启动应用控制，不必在此操作
+//            startTimer();
         }
         else{
             pauseDetectService();

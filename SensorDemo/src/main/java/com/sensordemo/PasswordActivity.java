@@ -1,6 +1,7 @@
 package com.sensordemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.ContextThemeWrapper;
@@ -56,7 +57,8 @@ public class PasswordActivity extends Activity {
                 if(SecondInput.getText().toString().equals(newPassword)){
                     if(updatePassword(newPassword)){
                         setResult(MainActivity.RESULT_OK);
-                        CustomizedDialog.createSimpleDialog(this,"Success","New Password Set Successfully",true);
+                        CustomizedDialog.createSimpleDialog(this, "Success", "New Password Set Successfully", true);
+                        finish();
                     }
                     else{
                         CustomizedDialog.createSimpleDialog(this,"Error","Password Setting Failed",false);
@@ -74,7 +76,11 @@ public class PasswordActivity extends Activity {
             if(FirstInput.getText().toString().equals(newPassword)){
                 if(updatePassword(newPassword)){
                     MainActivity.isSet = true;
+                    PasswordActivity.this.setResult(MainActivity.RESULT_OK, new Intent());
+//                    setResult(MainActivity.RESULT_OK);
                     CustomizedDialog.createSimpleDialog(this,"Success","New Password Set Successfully",true);
+                    Log.e("Password","setset");
+                    PasswordActivity.this.finish();
                 }
                 else{
                     CustomizedDialog.createSimpleDialog(this,"Error","Password Setting Failed",false);

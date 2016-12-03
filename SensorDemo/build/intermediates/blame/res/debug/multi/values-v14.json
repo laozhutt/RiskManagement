@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

@@ -1,28 +1,33 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 19
     buildToolsVersion "23.0.3"
-
     defaultConfig {
         applicationId "com.sensordemo"
         minSdkVersion 14
-        targetSdkVersion 21
-    }
+        targetSdkVersion 19
 
+        ndk {
+            moduleName "signal"          //生成的so名字
+            abiFilters "armeabi", "armeabi-v7a", "x86" //输出指定三种abi体系结构下的so库，目前可有可无。
+            ldLibs "log", "z", "m"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/LICENSE'
         exclude 'META-INF/LICENSE.txt'
         exclude 'META-INF/NOTICE.txt'
+    }
+    productFlavors {
     }
 }
 
@@ -37,5 +42,9 @@ dependencies {
     compile files('../libs/commons-codec-1.9.jar')
     compile files('../libs/httpcore-4.3.2.jar')
     compile files('../libs/httpmime-4.3.5.jar')
+    compile files('../libs/android-processes-1.0.8-sources.jar')
+    compile files('../libs/libsuperuser-1.0.0.201608240809-sources.jar')
+    compile 'com.jaredrummler:android-processes:1.0.8'
+    compile 'eu.chainfire:libsuperuser:1.0.0.+'
 }
 

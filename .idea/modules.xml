@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RiskManagement-dev.iml" filepath="$PROJECT_DIR$/RiskManagement-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiskManagement-fix.iml" filepath="$PROJECT_DIR$/RiskManagement-fix.iml" />
       <module fileurl="file://$PROJECT_DIR$/SensorDemo/SensorDemo.iml" filepath="$PROJECT_DIR$/SensorDemo/SensorDemo.iml" />
     </modules>
   </component>

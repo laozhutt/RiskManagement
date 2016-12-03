@@ -1,18 +1,18 @@
 [
     {
-        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
-        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\xml\\pref_data_sync.xml"
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\xml\\pref_headers.xml"
     },
     {
-        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
-        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\xml\\pref_notification.xml"
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\xml\\pref_general.xml"
     },
     {
-        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
-        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\xml\\pref_general.xml"
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\xml\\pref_notification.xml"
     },
     {
-        "merged": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
-        "source": "G:\\riskapp\\RiskManagement-dev\\SensorDemo\\src\\main\\res\\xml\\pref_headers.xml"
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\xml\\pref_data_sync.xml"
     }
 ]
