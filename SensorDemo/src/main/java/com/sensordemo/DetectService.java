@@ -71,7 +71,7 @@ public class DetectService extends Service {
                         Message m = new Message();
                         m.what = MESSAGE_DETECT_NEGATIVE;
                         messageHandler.sendMessage(m);
-                        timer.cancel();
+                        timer.cancel();//一次之后都会终止
 
                     }
                     else{

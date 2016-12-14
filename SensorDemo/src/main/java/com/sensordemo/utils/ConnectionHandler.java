@@ -41,16 +41,17 @@ public class ConnectionHandler {
 
     public ConnectionHandler(String address, String port, String imei){
         baseurl = address+":"+port;
-        IMEI = imei;
+        IMEI = "12345";
         context = ResourceManager.getContext();
 
 
         configureObject = new Properties();
         try {
             configureObject.loadFromXML(context.getApplicationContext().openFileInput(configureFilePath));
-            String fn = configureObject.getProperty(context.getString(R.string.property_file_number));
-            if(fn.equals("null")){
-                configureObject.setProperty(context.getString(R.string.property_file_number), "0");
+            String st = configureObject.getProperty(context.getString(R.string.property_state));
+
+            if(st.equals("null")){//设置为正在训练状态
+                configureObject.setProperty(context.getString(R.string.property_state), context.getString(R.string.property_training_state));
                 recordFile();
             }
         } catch (IOException e) {
@@ -173,12 +174,14 @@ public class ConnectionHandler {
 
 //                Log.e("traintesult",String.valueOf(i));
                 if(i == 0){
+
                     Log.e("trainUpload","ok");
                     return true;
                 }
             }
             if(method.equals("test")){
                 String result  = post.post("http://"+baseurl+"/"+method+"/");
+                Log.e("testresult",result);
                 JSONObject obj = new JSONObject(result);
                 int i = obj.getInt("max_version");
 
@@ -187,15 +190,11 @@ public class ConnectionHandler {
                     Log.e("VERSION", String.valueOf(i));
                     VERSION = String.valueOf(i);
 
-                    configureObject.loadFromXML(context.getApplicationContext().openFileInput(configureFilePath));
-                    int fileNumber = Integer.parseInt(configureObject.getProperty(context.getString(R.string.property_file_number)));
-                    Log.e("filenum",String.valueOf(fileNumber));
-                    if(fileNumber > 99){
-                        Intent serviceIntent = new Intent();
-                        serviceIntent.setAction("com.train.test");
-                        serviceIntent.putExtra("state", "alarm");
-                        context.sendBroadcast(serviceIntent);
-                    }
+                    Intent serviceIntent = new Intent();
+                    serviceIntent.setAction("com.train.test");
+                    serviceIntent.putExtra("state", "alarm");
+                    context.sendBroadcast(serviceIntent);
+
 
 //                    MainActivity.detectService.startDetectService();
 
@@ -215,8 +214,8 @@ public class ConnectionHandler {
         return false;
     }
 
-    public boolean isTrainFinished() {
-
+    public boolean isTrainFinished(String version) {
+        final String Version = version;
         HttpRequestManager post = new HttpRequestManager();
         post.setCharset(HTTP.UTF_8).setConnectionTimeout(5000)
                 .setSoTimeout(10000);
@@ -235,6 +234,7 @@ public class ConnectionHandler {
                 MultipartEntityBuilder builder = request
                         .getMultipartEntityBuilder();
                 builder.addTextBody("imei", IMEI, TEXT_PLAIN);// 中文
+                builder.addTextBody("version",Version,TEXT_PLAIN);
 
 
                 request.buildPostEntity();
@@ -255,9 +255,14 @@ public class ConnectionHandler {
 
         try {
             String result = post.post("http://"+baseurl+"/ask_trained/");
-//            Log.e("train","test");
-            if(result.toString().indexOf("true") != -1){
-                Log.e("train", "ok");
+            Log.e("trainfinish",result);
+            JSONObject obj = new JSONObject(result);
+            Boolean sit_trained = obj.getBoolean("sit_trained");
+            Boolean walk_trained = obj.getBoolean("walk_trained");
+            Boolean sit_model_exist = obj.getBoolean("sit_model_exist");
+            Boolean walk_model_exist = obj.getBoolean("walk_model_exist");
+            if(sit_trained && walk_trained){
+                Log.e("train on server", "finished");
                 return true;
             }
         } catch (Exception e) {

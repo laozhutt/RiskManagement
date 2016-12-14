@@ -97,9 +97,11 @@ public class CollectDataService extends Service implements SensorEventListener{
         configureObject = new Properties();
         try {
             configureObject.loadFromXML(getApplicationContext().openFileInput(configureFilePath));
-            String fn = configureObject.getProperty(getString(R.string.property_file_number));
-            if(fn.equals("null")){
-                configureObject.setProperty(getString(R.string.property_file_number), "0");
+            String st = configureObject.getProperty(getString(R.string.property_state));
+
+
+            if(st.equals("null")){//设置为正在训练状态
+                configureObject.setProperty(getString(R.string.property_state), getString(R.string.property_training_state));
                 recordFile();
             }
         } catch (IOException e) {
@@ -202,13 +204,13 @@ public class CollectDataService extends Service implements SensorEventListener{
                 }
 
 
-                getMatrix();//判断一下正确率
+//                getMatrix();//判断一下正确率
                 writeTxt();
                 try {
 
 //                    configureObject.loadFromXML(getApplicationContext().openFileInput(configureFilePath));
 //                    int fileNumber = Integer.parseInt(configureObject.getProperty(getString(R.string.property_file_number)));
-                    if(connection.isTrainFinished()){
+                    if(connection.isTrainFinished(ConnectionHandler.VERSION)){
                         isFinish = true;
 
                     }
@@ -218,7 +220,7 @@ public class CollectDataService extends Service implements SensorEventListener{
                     if(isFinish){
                         //TODO:After the server is setup, this should be uncommented
                         Log.e("postTestData", "begin");
-                        uploadTest = connection.postData(FilePath, getString(R.string.server_train_method));
+                        uploadTest = connection.postData(FilePath, getString(R.string.server_test_method));
 //                        connection.getResult();
                     }
                     else {
@@ -328,7 +330,7 @@ public class CollectDataService extends Service implements SensorEventListener{
 
 
 
-        boolean legalTxt = false;//判断文件是否为有数据的文件
+//        boolean legalTxt = false;//判断文件是否为有数据的文件
         String dir = Environment.getExternalStorageDirectory().getPath()+"/SensorDemoData";
         File fileDir = new File(dir);
         if(!fileDir.exists()){
@@ -352,7 +354,7 @@ public class CollectDataService extends Service implements SensorEventListener{
                     Log.e("device","flat");
                     continue;
                 }
-                legalTxt = true;
+//                legalTxt = true;
                 String string = sensorData.accelerometerX+"\n"+
                         sensorData.accelerometerY+"\n"+
                         sensorData.accelerometerZ+"\n"+
@@ -369,12 +371,12 @@ public class CollectDataService extends Service implements SensorEventListener{
 
             //test jni
 //            ju.test_native();
-            if(legalTxt){
-                Message m = new Message();
-                m.what = MESSAGE_LEGAL_FILE;
-                MainActivity.messageHandler.sendMessage(m);
-                //停止检测多久，给mainactivity发消息
-            }
+//            if(legalTxt){
+//                Message m = new Message();
+//                m.what = MESSAGE_LEGAL_FILE;
+//                MainActivity.messageHandler.sendMessage(m);
+//                //停止检测多久，给mainactivity发消息
+//            }
         } catch (IOException e) {
 
             e.printStackTrace();
@@ -459,7 +461,7 @@ public class CollectDataService extends Service implements SensorEventListener{
         else{
             foregroundAppName = ProcessManager.getForegroundApp();
         }
-        Log.e("running app name",foregroundAppName);
+//        Log.e("running app name",foregroundAppName);
         if(homePackageName != null && homePackageName.size() > 0){
             boolean isHomeRunning = homePackageName.contains(foregroundAppName);
             if(isHomeRunning){

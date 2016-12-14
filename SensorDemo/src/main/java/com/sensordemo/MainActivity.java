@@ -20,6 +20,7 @@ import android.widget.TextView;
 import android.os.Handler;
 import android.os.Message;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -41,7 +42,7 @@ public class MainActivity extends Activity {
 	private TextView progressView;
 
 	public static int dataNumber;
-	public static int fileNumber = 0;//多少个文件才算训练够
+	public static String progressState;
 
 	private CollectDataService.CollectDataBinder collectDataBinder;
 	public static CollectDataService collectDataService;//全局使用
@@ -134,22 +135,7 @@ public class MainActivity extends Activity {
 						break;
 					case MESSAGE_STOP_DETECT:
 						stopDetectTimer();
-					case MESSAGE_LEGAL_FILE:
-						if(fileNumber < 100){
-							fileNumber = fileNumber + 1;
-//							Log.e("progress",fileNumber+"");
-						}
-						if(fileNumber == 100){
-//							lockButton.setVisibility(View.VISIBLE);//训练完按钮可见
-//							trainButton.setClickable(false);//训练完就不让训练了
-						}
 
-						Log.e("progress",fileNumber+"");
-						configureObject.setProperty(getString(R.string.property_file_number), String.valueOf(fileNumber));
-//						progressView.setText(Integer.parseInt(configureObject.getProperty(getString(R.string.property_file_number)))*10 + "%");
-						progressView.setText(configureObject.getProperty(getString(R.string.property_file_number)) + "%");
-						recordFile();
-						break;
 					case MESSAGE_HANDLE_TRAIN:
 						Log.e("broadcasttrain","start");
 						trainButton.performClick();
@@ -170,7 +156,7 @@ public class MainActivity extends Activity {
 						}
 						break;
 					case MESSAGE_HANDLE_ALARM:
-//						detectService.pauseDetectService();
+						detectService.pauseDetectService();
 						detectService.startDetectService();
 //					case MESSAGE_CLICK_LOCKBUTTON:
 //						lockButton.performClick();
@@ -189,42 +175,48 @@ public class MainActivity extends Activity {
 		try {
 			isSet = false;
 
-//			FileOutputStream fos = new FileOutputStream(configureFilePath);
+//			Log.e("1",getApplicationContext().getFilesDir().getAbsolutePath() + "/" + configureFilePath);
+//			File file = new File(getApplicationContext().getFilesDir().getAbsolutePath() + "/" + configureFilePath);
+//			if(!file.exists()){
+//				file.createNewFile();
+//			}
+//			FileOutputStream outStream = openFileOutput(getApplicationContext().getFilesDir().getAbsolutePath() + "/" + configureFilePath, Context.MODE_PRIVATE);
 //			FileInputStream fis = new FileInputStream(configureFilePath);
 			configureObject.loadFromXML(getApplicationContext().openFileInput(configureFilePath));
+
+			Log.e("mainactivity","begin");
 //			configureObject.loadFromXML(fis);
 			TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 			configureObject.setProperty(getString(R.string.property_imei), tm.getDeviceId());
 			configureObject.storeToXML(getApplicationContext().openFileOutput(configureFilePath, ContextThemeWrapper.MODE_PRIVATE), null);
-			String fn = configureObject.getProperty(getString(R.string.property_file_number));
+			String st = configureObject.getProperty(getString(R.string.property_state));
 
 
-			if(fn.equals("null")){
-//				Log.e("null","null");
-				configureObject.setProperty(getString(R.string.property_file_number), "0");
+			if(st.equals("null")){//设置为正在训练状态
+				configureObject.setProperty(getString(R.string.property_state), getString(R.string.property_training_state));
 				recordFile();
 			}
-			if(fn.equals("100")){
+			if(st.equals(getString(R.string.property_detecting_state))){
 				lockButton.setVisibility(View.VISIBLE);//训练完按钮可见
 //				trainButton.setClickable(false);//训练完就不让训练了
 			}
 
 
 
-			fileNumber = Integer.parseInt(configureObject.getProperty(getString(R.string.property_file_number)));
-//			int f = (int)fileNumber;
-			progressView.setText(fileNumber + "%");
+			progressState = configureObject.getProperty(getString(R.string.property_state));
+			progressView.setText(progressState);
 //			progressView.setText(configureObject.getProperty(getString(R.string.property_file_number)) + "%");
 //			Log.e("filenumber", String.valueOf(fileNumber));
 //			Log.e("imei",configureObject.getProperty(getString(R.string.property_imei)));
 			//configureObject.setProperty("TrainFinish","false");
 			String pwhs = configureObject.getProperty(getString(R.string.password_property_name));
 			//pwhs = "null";
-//			Log.e("password", pwhs);
+			Log.e("password", pwhs);
 			if(pwhs.equals("null")){
-//				Log.e("pwhs","22222222222222222222222222222222");
+				Log.e("pwhs","22222222222222222222222222222222");
 //				startActivity(new Intent(this, PasswordActivity.class));
 				startActivityForResult(new Intent(this, PasswordActivity.class), SETPASSWORD);
+				finish();
 			}
 
 			else{
@@ -251,15 +243,17 @@ public class MainActivity extends Activity {
 		}
 		catch (IOException e){
 			Log.e("Load Error", e.getMessage());
-			configureObject.setProperty(getString(R.string.property_collect_finish), "false");
 			configureObject.setProperty(getString(R.string.password_property_name),"null");
-			configureObject.setProperty(getString(R.string.property_file_number),"null");
+//			configureObject.setProperty(getString(R.string.property_file_number),"null");
 			TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 			configureObject.setProperty(getString(R.string.property_imei),tm.getDeviceId());
 			configureObject.setProperty(getString(R.string.property_collect_finish),"false");
-//			startActivityForResult(new Intent(this,PasswordActivity.class),SETPASSWORD);
+			configureObject.setProperty(getString(R.string.property_state),getString(R.string.property_training_state));
+			startActivityForResult(new Intent(this,PasswordActivity.class),SETPASSWORD);
+			finish();
 		}
 		catch (Exception e){
+			e.printStackTrace();
 			Log.e("Load Error", e.getMessage());
 		}
 	}

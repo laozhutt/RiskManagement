@@ -82,6 +82,10 @@
     <string name="property_imei">imei</string>
     <string name="property_collect_finish">TrainFinish</string>
     <string name="property_file_number">FileNumber</string>
+    <string name="property_state">State</string>
+    <string name="property_training_state">training</string>
+    <string name="property_detecting_state">detecting</string>
+
 
     <string name="password_title_set">Password Setting</string>
     <string name="password_title_change">Change Password</string>

@@ -58,7 +58,7 @@ public class PasswordActivity extends Activity {
                     if(updatePassword(newPassword)){
                         setResult(MainActivity.RESULT_OK);
                         CustomizedDialog.createSimpleDialog(this, "Success", "New Password Set Successfully", true);
-                        finish();
+//                        finish();
                     }
                     else{
                         CustomizedDialog.createSimpleDialog(this,"Error","Password Setting Failed",false);
@@ -80,7 +80,8 @@ public class PasswordActivity extends Activity {
 //                    setResult(MainActivity.RESULT_OK);
                     CustomizedDialog.createSimpleDialog(this,"Success","New Password Set Successfully",true);
                     Log.e("Password","setset");
-                    PasswordActivity.this.finish();
+                    startActivityForResult(new Intent(this, MainActivity.class), 1);
+//                    PasswordActivity.this.finish();
                 }
                 else{
                     CustomizedDialog.createSimpleDialog(this,"Error","Password Setting Failed",false);

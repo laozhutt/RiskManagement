@@ -86,32 +86,28 @@ public final class R {
         public static final int pref_title_vibrate=0x7f08001c;
         public static final int property_collect_finish=0x7f08001d;
         public static final int property_collectservice_name=0x7f08001e;
-        public static final int property_detectservice_name=0x7f08001f;
-        public static final int property_file_number=0x7f080020;
-        public static final int property_imei=0x7f080021;
-        public static final int server_address=0x7f080022;
-        public static final int server_get_result_method=0x7f080023;
-        public static final int server_port=0x7f080024;
-        public static final int server_response_ok=0x7f080025;
-        public static final int server_test_method=0x7f080026;
-        public static final int server_train_method=0x7f080027;
-        public static final int start=0x7f080028;
-        public static final int state=0x7f080029;
-        public static final int title_activity_settings=0x7f08002a;
-        public static final int write=0x7f08002b;
+        public static final int property_detecting_state=0x7f08001f;
+        public static final int property_detectservice_name=0x7f080020;
+        public static final int property_file_number=0x7f080021;
+        public static final int property_imei=0x7f080022;
+        public static final int property_state=0x7f080023;
+        public static final int property_training_state=0x7f080024;
+        public static final int server_address=0x7f080025;
+        public static final int server_get_result_method=0x7f080026;
+        public static final int server_port=0x7f080027;
+        public static final int server_response_ok=0x7f080028;
+        public static final int server_test_method=0x7f080029;
+        public static final int server_train_method=0x7f08002a;
+        public static final int start=0x7f08002b;
+        public static final int state=0x7f08002c;
+        public static final int title_activity_settings=0x7f08002d;
+        public static final int write=0x7f08002e;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f050000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f050001;
     }
     public static final class xml {

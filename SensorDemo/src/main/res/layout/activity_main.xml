@@ -93,7 +93,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Train Progress:"
+            android:text="State:"
             android:textSize="30dp"
             android:id="@+id/trainProgress"
             android:layout_marginTop="21dp"
@@ -104,12 +104,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0%"
+            android:text="@string/property_training_state"
             android:textSize="30dp"
+            android:layout_marginLeft="20dp"
             android:id="@+id/progress"
             android:layout_alignTop="@+id/trainProgress"
-            android:layout_toRightOf="@+id/state"
-            android:layout_toEndOf="@+id/state" />
+            android:layout_toRightOf="@+id/trainProgress"
+            android:layout_toEndOf="@+id/trainProgress" />
 
 
     </RelativeLayout>

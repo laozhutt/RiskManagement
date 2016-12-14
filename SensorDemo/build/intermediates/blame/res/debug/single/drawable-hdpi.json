@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher1.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher1.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_sync_black_24dp.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_sync_black_24dp.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\train_but.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\train_but.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_info_black_24dp.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_info_black_24dp.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lock.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\lock.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\setting_icon.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\setting_icon.png"
+    },
+    {
+        "merged": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "G:\\riskapp\\RiskManagement-fix\\SensorDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

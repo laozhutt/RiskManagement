@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="41938783748811"
+    token="6005558604823295690"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="713" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="221" />
+    <task
+        name="verifier"
+        duration="57" />
+
+    <artifact
+        location="G:\riskapp\RiskManagement-fix\SensorDemo\build\outputs\apk\SensorDemo-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="41938783748811"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="G:\riskapp\RiskManagement-fix\SensorDemo\build\outputs\apk\SensorDemo-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

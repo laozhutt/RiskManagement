@@ -49,7 +49,7 @@ public class LongService extends Service {
     public static Set<String> oldForeApps = new HashSet<String>();
     public static final String configureFilePath = "config.xml";
     public static Properties configureObject;
-    public static int fileNumber = 0;//多少个文件才算训练够
+    public static String progressState;
     private String appname = "com.sensordemo";
     private String qqPackageName = "com.tencent.mobileqq";
     private String wechatPackageName = "com.tencent.mm";
@@ -67,11 +67,16 @@ public class LongService extends Service {
                 if (isRunningApp() && isScreenOn()){
 //                    getRunningApp();
                     configureObject.loadFromXML(getApplicationContext().openFileInput(configureFilePath));
-                    fileNumber = Integer.parseInt(configureObject.getProperty(getString(R.string.property_file_number)));
-                    Log.e("filenumService",String.valueOf(fileNumber));
+                    String st = configureObject.getProperty(getString(R.string.property_state));
+                    if(st.equals("null")){//设置为正在训练状态
+                        configureObject.setProperty(getString(R.string.property_state), getString(R.string.property_training_state));
+                        recordFile();
+                    }
+                    progressState = configureObject.getProperty(getString(R.string.property_state));
+                    Log.e("progressState",progressState);
                     //start to collect data, you may send a boardcast intent
                     //相当于每次开启新的应用，点击一下搜集的按钮。
-                    if(fileNumber < 100){
+                    if(progressState.equals(getString(R.string.property_training_state))){
 //                        MainActivity.trainButton.performClick();
 
                         Intent serviceIntent = new Intent();
@@ -259,16 +264,16 @@ public class LongService extends Service {
         try {
 
 
+
             configureObject.loadFromXML(getApplicationContext().openFileInput(configureFilePath));
-            String fn = configureObject.getProperty(getString(R.string.property_file_number));
+            String st = configureObject.getProperty(getString(R.string.property_state));
 
 
-            if(fn.equals("null")){
-                configureObject.setProperty(getString(R.string.property_file_number), "0");
+            if(st.equals("null")){//设置为正在训练状态
+                configureObject.setProperty(getString(R.string.property_state), getString(R.string.property_training_state));
                 recordFile();
             }
 
-//            Log.e("filenum",String.valueOf(fileNumber));
         } catch (IOException e) {
             e.printStackTrace();
         }
